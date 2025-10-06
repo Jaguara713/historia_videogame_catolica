@@ -1,25 +1,42 @@
 /* --------------------- BIT STYLES --------------------- */
 
-/* 8 BITS */
+/* INDEX */
 .index {
-  font-family: '8bit';
-  font-size: xx-large !important;
+  font-family: 'Index';
+  text-shadow: 2px 2px 4px black;
   letter-spacing: 0.1em;
   color: white;
+  filter: pixelate;
+}
+
+.index.background {
+  background: linear-gradient(
+    to top left,
+    rgba(0, 2, 33, 1) 0%,
+    rgba(47, 47, 127, 1) 50%,
+    rgba(0, 2, 33, 1) 100%
+  );
+}
+
+.indexTextBackground {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .navButton.index {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 2, 33, 0.5);
 }
 
 .index.border {
-  border: solid 0.1rem black;
+  border-style: ridge;
   border-color: white !important;
   /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
 }
 
 #divConteudo.index {
-  font-size: x-large !important;
+  font-size: larger !important;
 }
 
 footer.index.border {
@@ -112,7 +129,7 @@ footer.style8.border {
 
 footer.style16 {
   border-top: solid 0.2rem rgb(255, 255, 255);
-  line-height: 1.5rem !important;
+  line-height: 1.5rem;
   font-size: x-small !important;
 }
 
@@ -186,7 +203,8 @@ footer.style32.border {
 }
 
 .navButton.style64:active {
-  box-shadow: none;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  filter: brightness(0.9);
   transform: translateY(4px);
 }
 
@@ -199,13 +217,65 @@ footer.style64.border {
 
 /* 128 BITS */
 
-.style128 {
-  font-family: '128bit';
+.style128Background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
-.navButton.style128 {
-  font-size: x-large !important;
+.style128textBackground {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.style128 {
+  font-family: '128bit';
+  letter-spacing: 0.1em;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  filter: pixelate;
+}
+
+.style128.border {
+  border: solid 0.1rem rgba(0, 0, 0, 0.468);
+  /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
+}
+
+.navButton.style128.border {
+  border: rgba(0, 0, 0, 0) !important;
+  background: linear-gradient(
+    to right,
+    rgba(125, 98, 8, 9) 0%,
+    rgba(125, 98, 8, 0.2) 100%
+  );
+  border-radius: 5px;
+}
+
+.navButton.style128:hover {
+  transform: translateY(2px);
   cursor: pointer;
+}
+
+.navButton.style128:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.4);
+  filter: brightness(0.9);
+  transform: translateY(2px);
+}
+
+footer.style128.border {
+  line-height: 1.5rem !important;
+  border-radius: 0px !important;
+  border: solid 0px black;
+  border-top: solid 0.2rem rgb(255, 255, 255);
 }
 
 /* --------------------- ANIMATIONS --------------------- */

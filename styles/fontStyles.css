@@ -1,59 +1,84 @@
 /* ------------------------- IMPORTAÇÃO ------------------------- */
 
+/* FONTES INDEX */
+@font-face {
+  /* Importa fontes Externas */
+  font-family: 'Index';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./midia/fonts/Ferrum-wy99.otf');
+}
+
 /* FONTES 8 BITS */
-@font-face { /* Importa fontes Externas */
-    font-family: '8bit';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./midia/fonts/Orange\ Kid.otf');
+@font-face {
+  /* Importa fontes Externas */
+  font-family: '8bit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./midia/fonts/Orange\ Kid.otf');
 }
 
 /* FONTES 16 BITS */
-@font-face { /* Importa fontes Externas */
-    font-family: '16bit';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./midia/fonts/MMRock9.ttf');
+@font-face {
+  /* Importa fontes Externas */
+  font-family: '16bit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./midia/fonts/MMRock9.ttf');
 }
 
 /* FONTES 32 BITS */
-@font-face { /* Importa fontes Externas */
-    font-family: '32bit';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./midia/fonts/VCR_OSD_MONO_1.001.ttf');
+@font-face {
+  /* Importa fontes Externas */
+  font-family: '32bit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./midia/fonts/VCR_OSD_MONO_1.001.ttf');
 }
 
 /* FONTES 64 BITS */
-@font-face { /* Importa fontes Externas */
-    font-family: '64bit';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./midia/fonts/chiarostd_b.otf');
+@font-face {
+  /* Importa fontes Externas */
+  font-family: '64bit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./midia/fonts/chiarostd_b.otf');
 }
 
 /* FONTES 128 BITS */
-@font-face { /* Importa fontes Externas */
-    font-family: '128bit';
-    font-style: normal;
-    font-weight: 400;
-   /* src: url('');*/
+@font-face {
+  /* Importa fontes Externas */
+  font-family: '128bit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./midia/fonts/Icone_LT_Bold.ttf');
 }
 
 /* ------------------------- COLORIR ------------------------- */
 
-.txtAzul { color: #0000ff; }
+.txtAzul {
+  color: #0000ff;
+}
 
-.txtVerde { color: #00ff00; }
+.txtVerde {
+  color: #00ff00;
+}
 
-.txtVermelho { color: #ff0000; }
+.txtVermelho {
+  color: #ff0000;
+}
 
-.txtAmarelo { color: #ffff00; }
+.txtAmarelo {
+  color: #ffff00;
+}
 
-.txtRoxo { color: #ff00ff; }
+.txtRoxo {
+  color: #ff00ff;
+}
 
-.txtCiano { color: #00ffff; }
-
+.txtCiano {
+  color: #00ffff;
+}
 
 /* 16 BITS */
 
