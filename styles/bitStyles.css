@@ -1,0 +1,231 @@
+/* --------------------- BIT STYLES --------------------- */
+
+/* 8 BITS */
+
+.style8 {
+    font-family: '8bit';
+    letter-spacing: 0.1em;
+    color: white;
+    background-color: #043717;
+}
+
+
+.style8.border {
+    border: solid 0.1rem black;
+    border-color: white !important;
+    /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
+}
+
+#divConteudo.style8 {
+    font-size: x-large !important;
+}
+
+footer.style8.border {
+    font-size: x-large !important;
+    line-height: 1.5rem !important;
+    border: solid 0px black;
+    border-top: solid 0.2rem rgb(255, 255, 255);
+}
+
+/* 16 BITS */
+
+.style16 {
+    letter-spacing: 0.075rem;
+    line-height: 2rem;
+    font-size: medium !important;
+}
+
+.style16.border {
+    box-shadow: -2px 0px 0px #010f09, 2px 0px 0px #010f09, 0px -2px 0px #010f09, 0px 2px 0px #010f09,
+        1px 1px 0px #010f09,
+        2px 2px 0px #010f09,
+        3px 3px 0px #010f09,
+        4px 4px 0px #010f09;
+}
+
+.style16.solid {
+    background-color: #0f380f;
+}
+
+.style16.crt {
+
+    background: linear-gradient(#2a6932 10%, #1d4422 25%, #2a6932 25%, #2a6932 35%, #1d4422 50%, #2a6932 50%, #2a6932 60%, #1d4422 75%, #2a6932 75%, #2a6932 85%, #1d4422 100%);
+    background-size: 100% 20px;
+    background-blend-mode: color-burn;
+
+    /* retro stuff */
+    color: #e8f0f5;
+    font-family: '16bit';
+    text-shadow: -2px 0px 0px #010f09, 2px 0px 0px #010f09, 0px -2px 0px #010f09, 0px 2px 0px #010f09,
+        1px 1px 0px #010f09,
+        2px 2px 0px #010f09,
+        3px 3px 0px #010f09,
+        4px 4px 0px #010f09;
+    animation: scanlines infinite 80s linear;
+
+}
+
+.navButton.style16 {
+    box-shadow: -2px 0px 0px #ebebeb,
+        -2px -2px 0px #ebebeb,
+        0px -2px 0px #ebebeb,
+        0px 2px 0px #ebebeb,
+        2px 2px 0px #ebebeb,
+        2px 0px 0px #ebebeb,
+        2px -2px 0px #ebebeb,
+        -2px 2px 0px #ebebeb,
+        -4px 0px 0px #202020,
+        -4px -4px 0px #202020,
+        0px -4px 0px #202020,
+        0px 4px 0px #202020,
+        4px 4px 0px #202020,
+        4px 0px 0px #202020,
+        4px -4px 0px #202020,
+        -4px 4px 0px #202020;
+    font-size: large !important;
+    background-color: #0f380f;
+}
+
+footer.style16 {
+    border-top: solid 0.2rem rgb(255, 255, 255);
+    line-height: 1.5rem !important;
+    font-size: x-small !important;
+}
+
+/* 32 BITS */
+
+.style32 {
+    font-family: '32bit';
+    letter-spacing: 0.1em;
+    color: white;
+    background: #2F2F7F;
+    background: linear-gradient(1deg, rgba(47, 47, 127, 1) 0%, rgba(0, 2, 33, 1) 100%);
+    filter: pixelate;
+}
+
+.style32.border {
+    border: solid 0.1rem black;
+    border-color: white !important;
+    /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
+}
+
+footer.style32.border {
+    line-height: 1.5rem !important;
+    border: solid 0px black;
+    border-top: solid 0.2rem rgb(255, 255, 255);
+    ;
+}
+
+
+/* 64 BITS */
+
+.style64Background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.style64textBackground {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.style64 {
+    font-family: '64bit';
+    letter-spacing: 0.1em;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    filter: pixelate;
+}
+
+.style64.border {
+    background-color: rgba(27, 176, 76, 0.9);
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.navButton.style64:hover {
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.6);
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.navButton.style64:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+footer.style64.border {
+    line-height: 1.5rem !important;
+    border-radius: 0px !important;
+    border: solid 0px black;
+    border-top: solid 0.2rem rgb(255, 255, 255);
+}
+
+/* 128 BITS */
+
+.style128 {
+    font-family: '128bit';
+}
+
+.navButton.style128 {
+    font-size: x-large !important;
+    cursor: pointer;
+}
+
+/* --------------------- ANIMATIONS --------------------- */
+
+@keyframes crtFlicker {
+    0% {
+        box-shadow: 1px 0 0 #ea36af, -1.5px 0 0 #75fa69;
+        text-shadow: 1px 0 0 #ea36af, -1.5px 0 0 #75fa69;
+    }
+
+    100% {
+        box-shadow: 1.5px 0.5px 1.5px #ea36af, -1px -0.5px 1.5px #75fa69;
+        text-shadow: 1.5px 0.5px 1.5px #ea36af, -1px -0.5px 1.5px #75fa69;
+    }
+}
+
+@keyframes scanlines {
+    0% {
+        background-position: 0 0%;
+    }
+
+    10% {
+        background-position: 0 10%;
+    }
+
+    11% {
+        background-position: 0 12.25%;
+    }
+
+    12% {
+        background-position: 0 12%;
+    }
+
+    60% {
+        background-position: 0 60%;
+    }
+
+    61% {
+        background-position: 0 62.25%;
+    }
+
+    62% {
+        background-position: 0 62%;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+}
