@@ -139,7 +139,7 @@ footer.style16 {
   font-family: '32bit';
   letter-spacing: 0.1em;
   color: white;
-  background: #2f2f7f;
+  background: rgba(47, 47, 127, 1);
   background: linear-gradient(
     1deg,
     rgba(47, 47, 127, 1) 0%,
@@ -152,6 +152,10 @@ footer.style16 {
   border: solid 0.1rem black;
   border-color: white !important;
   /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
+}
+
+footer.style32 {
+  background: rgb(40, 40, 107);
 }
 
 footer.style32.border {

@@ -139,3 +139,9 @@ footer p {
 footer p:nth-child(2) {
   max-width: 900px; /* Defina um valor máximo em pixels ou outra unidade */
 }
+
+@media screen and (max-width:1352px) {
+  footer p{
+    font-size: xx-small !important;
+  }
+}
