@@ -40,6 +40,22 @@ header {
 }
 
 
+#divTitle {
+    margin-left: 1rem;
+    min-width: 15rem;
+    max-width: 15rem;
+    height: 150px;
+    overflow-wrap: break-word;
+}
+
+#bannerTitle {
+    margin-left: 1rem;
+    min-width: 15rem;
+    max-width: 15rem;
+    height: 150px;
+    object-fit: fill;
+}
+
 #bannerVideo {
     text-align: center;
     width: 100%;
@@ -47,14 +63,6 @@ header {
     margin-left: 1rem;
     margin-right: 1rem;
     object-fit: fill;
-}
-
-#divTitle {
-    margin-left: 1rem;
-    min-width: 15rem;
-    max-width: 15rem;
-    height: 150px;
-    overflow-wrap: break-word;
 }
 
 /* ----------------------- MAIN ------------------------ */

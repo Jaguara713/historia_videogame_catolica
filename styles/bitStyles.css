@@ -1,6 +1,36 @@
 /* --------------------- BIT STYLES --------------------- */
 
 /* 8 BITS */
+.index {
+    font-family: '8bit';
+    font-size: xx-large !important;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.navButton.index {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.index.border {
+    border: solid 0.1rem black;
+    border-color: white !important;
+    /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
+}
+
+#divConteudo.index {
+    font-size: x-large !important;
+}
+
+footer.index.border {
+    font-size: x-large !important;
+    line-height: 1.5rem !important;
+    border: solid 0px black;
+    border-top: solid 0.2rem rgb(255, 255, 255);
+}
+
+
+/* 8 BITS */
 
 .style8 {
     font-family: '8bit';
