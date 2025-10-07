@@ -54,7 +54,7 @@ header {
 
 #bannerVideo {
   text-align: center;
-  min-width: calc(100% - 18rem);
+  width: calc(100% - 18rem);
   height: 150px;
   margin-left: 1rem;
   margin-right: 1rem;
