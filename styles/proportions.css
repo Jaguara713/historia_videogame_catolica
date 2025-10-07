@@ -50,8 +50,9 @@ header {
   max-width: 15rem;
   height: 150px;
   object-fit: fill;
+  overflow: hidden;
 }
-
+ 
 #bannerVideo {
   text-align: center;
   width: calc(100% - 18rem);
@@ -59,6 +60,7 @@ header {
   margin-left: 1rem;
   margin-right: 1rem;
   object-fit: fill;
+  overflow: hidden;
 }
 
 /* ----------------------- MAIN ------------------------ */
