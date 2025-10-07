@@ -1,6 +1,6 @@
 /* --------------------- BIT STYLES --------------------- */
 
-/* --------------------------------- INDEX --------------------------------- */
+/* INDEX */
 .index {
   font-family: 'Index';
   text-shadow: 2px 2px 4px black;
@@ -15,7 +15,7 @@
     rgba(0, 2, 33, 1) 0%,
     rgba(47, 47, 127, 1) 50%,
     rgba(0, 2, 33, 1) 100%
-  ) ;
+  );
 }
 
 .indexTextBackground {
@@ -30,7 +30,7 @@
 }
 
 .index.border {
-  border-style: ridge;
+  border: solid 0.1rem black;
   border-color: white !important;
   /* o !important faz o CSS priorizar esse estilo, idependente de outros estilos*/
 }
@@ -46,7 +46,7 @@ footer.index.border {
   border-top: solid 0.2rem rgb(255, 255, 255);
 }
 
-/* --------------------------------- 8 BITS --------------------------------- */
+/* 8 BITS */
 
 .style8 {
   font-family: '8bit';
@@ -72,7 +72,7 @@ footer.style8.border {
   border-top: solid 0.2rem rgb(255, 255, 255);
 }
 
-/* --------------------------------- 16 BITS --------------------------------- */
+/* 16 BITS */
 
 .style16 {
   letter-spacing: 0.075rem;
@@ -107,7 +107,7 @@ footer.style8.border {
   background-size: 100% 20px;
   background-blend-mode: color-burn;
 
-  /* EFEITOS RETRO */
+  /* retro stuff */
   color: #e8f0f5;
   font-family: '16bit';
   text-shadow: -2px 0px 0px #010f09, 2px 0px 0px #010f09, 0px -2px 0px #010f09,
@@ -133,7 +133,7 @@ footer.style16 {
   font-size: x-small !important;
 }
 
-/* --------------------------------- 32 BITS --------------------------------- */
+/* 32 BITS */
 
 .style32 {
   font-family: '32bit';
@@ -164,7 +164,7 @@ footer.style32.border {
   border-top: solid 0.2rem rgb(255, 255, 255);
 }
 
-/* --------------------------------- 64 BITS --------------------------------- */
+/* 64 BITS */
 
 .style64Background {
   background-size: cover;
@@ -219,7 +219,7 @@ footer.style64.border {
   border-top: solid 0.2rem rgb(255, 255, 255);
 }
 
-/* --------------------------------- 128 BITS --------------------------------- */
+/* 128 BITS */
 
 .style128Background {
   background-size: cover;
@@ -282,7 +282,7 @@ footer.style128.border {
   border-top: solid 0.2rem rgb(255, 255, 255);
 }
 
-/* --------------------------------- ANIMATIONS --------------------------------- */
+/* --------------------- ANIMATIONS --------------------- */
 
 @keyframes crtFlicker {
   0% {
